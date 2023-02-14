@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.catagory-date input,
+select {
+  padding: 30px;
+  width: 300px;
+  font-size: 20px;
+}
+#discription {
+  padding: 30px;
+  width: 600px;
+}
+.head-name {
+  margin-left: 220px;
+  font-size: 40px;
+  color: #644ed7;
+  margin-bottom: 50px;
+}
+.add-delete {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 20px;
+  font-size: 23px;
+  color: greenyellow;
+}
+.add {
+  height: 80px;
+  width: 150px;
+  background-color: #644ed7;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.delete {
+  height: 80px;
+  width: 150px;
+  background-color: #644ed7;
+  text-align: center;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  text-align: center;
+}
+#add-to-list li {
+  border-radius: 12px;
+  position: relative;
+  top: 20px;
+  list-style: none;
+}
